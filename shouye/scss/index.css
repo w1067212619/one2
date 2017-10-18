@@ -1,0 +1,479 @@
+.header {
+  width: 100%;
+  height: 1rem;
+  z-index: 10;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0; }
+  .header .logo {
+    width: 2.2rem;
+    height: 0.75rem;
+    font-size: 0;
+    margin-left: 0.18rem; }
+    .header .logo img {
+      width: 100%;
+      height: 100%; }
+  .header .xuan {
+    width: 1.25rem;
+    height: 0.75rem;
+    margin-right: 0.18rem;
+    display: flex;
+    justify-content: space-between; }
+    .header .xuan .dao {
+      width: 0.45rem;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center; }
+      .header .xuan .dao img {
+        width: 0.45rem;
+        height: 0.45rem; }
+      .header .xuan .dao span {
+        font-size: 0.22rem;
+        color: #999999;
+        width: 0.5rem;
+        height: 0.25rem;
+        overflow: hidden; }
+
+.artical {
+  width: 100%;
+  margin-top: 1rem; }
+  .artical .banner {
+    width: 100%;
+    height: 2.7rem;
+    font-size: 0; }
+    .artical .banner img {
+      width: 100%;
+      height: 100%; }
+  .artical .nav {
+    width: 100%;
+    border-bottom: 20px solid gainsboro;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .artical .nav .tuwen {
+      width: 1.2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 0.6rem;
+      margin-bottom: 0.4rem;
+      font-size: 0.28rem; }
+      .artical .nav .tuwen img {
+        width: 1.2rem;
+        height: 1.2rem;
+        margin-bottom: 0.2rem; }
+      .artical .nav .tuwen .wen {
+        width: 1.2rem;
+        height: 0.3rem;
+        text-align: center;
+        overflow: hidden; }
+    .artical .nav .tuwen:nth-child(1),
+    .artical .nav .tuwen:nth-child(5) {
+      margin-left: 0.28rem; }
+    .artical .nav .tuwen:nth-child(1),
+    .artical .nav .tuwen:nth-child(2),
+    .artical .nav .tuwen:nth-child(3),
+    .artical .nav .tuwen:nth-child(4) {
+      margin-top: 0.36rem; }
+  .artical .zhuangxiu {
+    width: 100%;
+    border-bottom: 30px solid gainsboro; }
+    .artical .zhuangxiu .tou {
+      width: 90%;
+      height: 0.42rem;
+      margin: 0.32rem auto;
+      margin-bottom: 0.32rem;
+      font-size: 0;
+      border-left: 5px solid #3ac994; }
+      .artical .zhuangxiu .tou span {
+        font-size: 0.36rem;
+        margin-left: 0.3rem;
+        width: 1.6rem;
+        height: 0.42rem;
+        overflow: hidden; }
+        .artical .zhuangxiu .tou span a {
+          width: 0.95rem;
+          height: 0.3rem;
+          font-size: 0.24rem;
+          color: #999999; }
+    .artical .zhuangxiu .banner2 {
+      width: 95%;
+      height: 4rem;
+      margin: 0 auto; }
+      .artical .zhuangxiu .banner2 img {
+        width: 100%;
+        height: 100%; }
+    .artical .zhuangxiu .dian {
+      width: 95%;
+      height: 0.2rem;
+      margin: 0.2rem auto;
+      margin-bottom: 0.36rem;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .artical .zhuangxiu .dian div {
+        width: 0.15rem;
+        height: 0.15rem;
+        margin-right: 0.2rem;
+        background: #7c7c7c;
+        border-radius: 50%; }
+      .artical .zhuangxiu .dian div:hover {
+        background: #00bf9b; }
+    .artical .zhuangxiu .zeng {
+      width: 95%;
+      height: 0.36rem;
+      margin: 0 auto;
+      margin-bottom: 0.36rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .artical .zhuangxiu .zeng li {
+        display: flex;
+        align-items: center; }
+        .artical .zhuangxiu .zeng li img {
+          width: 0.36rem;
+          height: 0.36rem;
+          margin-right: 0.12rem; }
+        .artical .zhuangxiu .zeng li span {
+          font-size: 0.28rem;
+          color: #000000;
+          overflow: hidden; }
+  .artical .yuyue {
+    width: 100%;
+    border-bottom: 30px solid gainsboro; }
+    .artical .yuyue .tou {
+      width: 90%;
+      height: 0.42rem;
+      margin: 0.32rem auto;
+      margin-bottom: 0.32rem;
+      font-size: 0;
+      border-left: 5px solid #3ac994; }
+      .artical .yuyue .tou span {
+        font-size: 0.36rem;
+        margin-left: 0.3rem;
+        width: 1.6rem;
+        height: 0.42rem;
+        overflow: hidden; }
+        .artical .yuyue .tou span a {
+          width: 0.95rem;
+          height: 0.3rem;
+          font-size: 0.24rem;
+          color: #999999; }
+    .artical .yuyue .ziliao {
+      width: 5.86rem;
+      margin: 0 auto; }
+      .artical .yuyue .ziliao input {
+        width: 100%;
+        height: 0.7rem;
+        border: 1px solid gainsboro;
+        border-radius: 0.05rem;
+        margin-bottom: 0.25rem;
+        font-size: 0.28rem; }
+      .artical .yuyue .ziliao button {
+        width: 100%;
+        height: 0.7rem;
+        font-size: 0.36rem;
+        background: #feb605;
+        margin-bottom: 0.36rem;
+        color: white;
+        border-radius: 0.05rem;
+        border: none; }
+  .artical .sheji {
+    width: 100%;
+    border-bottom: 30px solid gainsboro; }
+    .artical .sheji .tou {
+      width: 90%;
+      height: 0.42rem;
+      margin: 0.32rem auto;
+      margin-bottom: 0.32rem;
+      font-size: 0;
+      border-left: 5px solid #3ac994; }
+      .artical .sheji .tou span {
+        font-size: 0.36rem;
+        margin-left: 0.3rem;
+        width: 1.6rem;
+        height: 0.42rem;
+        overflow: hidden; }
+    .artical .sheji .sjs {
+      width: 90%;
+      height: 2.43rem;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between; }
+      .artical .sheji .sjs li {
+        width: 2.63rem;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center; }
+        .artical .sheji .sjs li img {
+          width: 1.4rem;
+          height: 1.4rem;
+          margin-bottom: 0.25rem; }
+        .artical .sheji .sjs li .name {
+          width: 1.2rem;
+          height: 0.36rem;
+          font-size: 0.36rem;
+          overflow: hidden;
+          text-align: center;
+          line-height: 0.36rem; }
+        .artical .sheji .sjs li .pl {
+          width: 1.2rem;
+          height: 0.32rem;
+          overflow: hidden;
+          text-align: center;
+          line-height: 0.32rem;
+          background: #39c893;
+          color: white;
+          font-size: 0.24rem; }
+    .artical .sheji .huan {
+      width: 90%;
+      height: 0.7rem;
+      margin: 0.36rem auto;
+      margin-bottom: 0.36rem;
+      border: 1px solid gainsboro;
+      display: flex; }
+      .artical .sheji .huan li {
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        line-height: 0.7rem;
+        font-size: 0.28rem; }
+  .artical .xiaoguo {
+    width: 100%;
+    border-bottom: 30px solid gainsboro; }
+    .artical .xiaoguo .tou {
+      width: 90%;
+      height: 0.42rem;
+      margin: 0.32rem auto;
+      margin-bottom: 0.32rem;
+      font-size: 0;
+      border-left: 5px solid #3ac994; }
+      .artical .xiaoguo .tou span {
+        font-size: 0.36rem;
+        margin-left: 0.3rem;
+        width: 1.6rem;
+        height: 0.42rem;
+        overflow: hidden; }
+    .artical .xiaoguo .tu {
+      width: 7.16rem;
+      height: 10.12em;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center; }
+      .artical .xiaoguo .tu .tu1:nth-child(1) {
+        width: 100%;
+        height: 5.06rem;
+        font-size: 0;
+        position: relative; }
+        .artical .xiaoguo .tu .tu1:nth-child(1) img {
+          width: 100%;
+          height: 100%; }
+        .artical .xiaoguo .tu .tu1:nth-child(1) .xh {
+          width: 0.7rem;
+          height: 0.42rem;
+          background: black;
+          color: white;
+          opacity: 0.5;
+          position: absolute;
+          right: 0.2rem;
+          bottom: 0.2rem; }
+      .artical .xiaoguo .tu .tu1 {
+        width: 49%;
+        height: 2.49rem;
+        font-size: 0;
+        position: relative; }
+        .artical .xiaoguo .tu .tu1 img {
+          width: 100%;
+          height: 100%; }
+        .artical .xiaoguo .tu .tu1 .xh {
+          width: 0.7rem;
+          height: 0.42rem;
+          overflow: hidden;
+          background: black;
+          color: white;
+          opacity: 0.5;
+          position: absolute;
+          right: 0.2rem;
+          bottom: 0.2rem; }
+    .artical .xiaoguo .huan {
+      width: 90%;
+      height: 0.7rem;
+      margin: 0.36rem auto;
+      margin-bottom: 0.36rem;
+      border: 1px solid gainsboro;
+      display: flex; }
+      .artical .xiaoguo .huan li {
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        line-height: 0.7rem;
+        font-size: 0.28rem; }
+  .artical .zhibo {
+    width: 100%;
+    border-bottom: 30px solid gainsboro; }
+    .artical .zhibo .tou {
+      width: 90%;
+      height: 0.42rem;
+      margin: 0.32rem auto;
+      margin-bottom: 0.32rem;
+      font-size: 0;
+      border-left: 5px solid #3ac994; }
+      .artical .zhibo .tou span {
+        font-size: 0.36rem;
+        margin-left: 0.3rem;
+        width: 1.6rem;
+        height: 0.42rem;
+        overflow: hidden; }
+    .artical .zhibo .tu2 {
+      width: 7.16rem;
+      margin: 0 auto; }
+      .artical .zhibo .tu2 img {
+        width: 100%;
+        height: 5.34rem; }
+      .artical .zhibo .tu2 p span:nth-child(1) {
+        width: 1.85rem;
+        height: 0.33rem;
+        overflow: hidden;
+        font-size: 0.28rem; }
+      .artical .zhibo .tu2 p span:nth-child(2) {
+        width: 1.15rem;
+        height: 0.33rem;
+        font-size: 0.28rem;
+        color: white;
+        overflow: hidden;
+        background: #39c893; }
+    .artical .zhibo .huan {
+      width: 90%;
+      height: 0.7rem;
+      margin: 0.36rem auto;
+      margin-bottom: 0.36rem;
+      border: 1px solid gainsboro;
+      display: flex; }
+      .artical .zhibo .huan li {
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        line-height: 0.7rem;
+        font-size: 0.28rem; }
+  .artical .gonglue {
+    width: 100%;
+    border-bottom: 30px solid gainsboro; }
+    .artical .gonglue .tou {
+      width: 90%;
+      height: 0.42rem;
+      margin: 0.32rem auto;
+      margin-bottom: 0.32rem;
+      font-size: 0;
+      border-left: 5px solid #3ac994; }
+      .artical .gonglue .tou span {
+        font-size: 0.36rem;
+        margin-left: 0.3rem;
+        width: 1.6rem;
+        height: 0.42rem;
+        overflow: hidden; }
+    .artical .gonglue .tuwen1 {
+      width: 7.16rem;
+      height: 2.1rem;
+      margin: 0 auto;
+      font-size: 0;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      border-bottom: 1px solid gainsboro; }
+      .artical .gonglue .tuwen1 img {
+        width: 1.9rem;
+        height: 1.45rem;
+        margin-right: 0.22rem; }
+      .artical .gonglue .tuwen1 .wen1 {
+        width: 5rem;
+        height: 1.45rem; }
+        .artical .gonglue .tuwen1 .wen1 .min_wen {
+          width: 100%;
+          font-size: 0.36rem;
+          display: flex;
+          flex-wrap: wrap;
+          margin-bottom: 0.22rem; }
+        .artical .gonglue .tuwen1 .wen1 span {
+          width: 2.1rem;
+          overflow: hidden;
+          font-size: 0.28rem;
+          color: #999999; }
+          .artical .gonglue .tuwen1 .wen1 span img {
+            width: 0.28rem;
+            height: 0.28rem;
+            margin-right: 0.1rem; }
+    .artical .gonglue .huan {
+      width: 90%;
+      height: 0.7rem;
+      margin: 0.36rem auto;
+      margin-bottom: 0.36rem;
+      border: 1px solid gainsboro;
+      display: flex; }
+      .artical .gonglue .huan li {
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        line-height: 0.7rem;
+        font-size: 0.28rem; }
+  .artical .neir {
+    width: 7.4rem;
+    margin: 0.36rem auto;
+    padding-left: 0.1rem;
+    padding-bottom: 0.36rem;
+    border-bottom: 30px solid gainsboro;
+    font-size: 0.28rem;
+    text-indent: 2em; }
+  .artical .fw {
+    width: 100%;
+    height: 1.3rem; }
+    .artical .fw .fw-a {
+      width: 100%;
+      height: 1rem;
+      font-size: 0; }
+      .artical .fw .fw-a .a-fw .icon-hot-line {
+        font-size: 0.32rem;
+        float: left;
+        color: #39c893;
+        margin-right: 0.1rem;
+        margin-left: 1.9rem;
+        margin-top: 0.3rem; }
+      .artical .fw .fw-a .a-fw p {
+        width: 3.5rem;
+        height: 1rem;
+        overflow: hidden;
+        font-size: 0.28rem;
+        line-height: 1rem;
+        color: #333;
+        float: left; }
+    .artical .fw .fw-b {
+      width: 100%;
+      height: 0.3rem; }
+      .artical .fw .fw-b .fw-li {
+        width: 25%;
+        height: 0.3rem;
+        font-size: 0.28rem;
+        float: left;
+        text-align: center; }
+  .artical .footer {
+    width: 100%;
+    height: 1.85rem;
+    font-size: 0; }
+    .artical .footer .ter-a {
+      width: 100%;
+      height: 1.06rem;
+      position: relative; }
+      .artical .footer .ter-a .ter-p {
+        font-size: 0.25rem;
+        text-align: center;
+        line-height: 1.06rem; }
+
+/*# sourceMappingURL=index.css.map */
